@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net10.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Folder Include="Abstractions\Authentication\" />
+      <Folder Include="Abstractions\Behaviours\" />
+      <Folder Include="Abstractions\Caching\" />
+      <Folder Include="Abstractions\Clock\" />
+      <Folder Include="Abstractions\Email\" />
+      <Folder Include="Abstractions\EventBus\" />
+      <Folder Include="Abstractions\Messaging\" />
+      <Folder Include="Abstractions\Persistence\SQLConnection\" />
+      <Folder Include="Abstractions\Persistence\UnitOfWork\" />
+    </ItemGroup>
+
+</Project>
