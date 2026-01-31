@@ -7,9 +7,18 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="EventBus\" />
       <Folder Include="Logging\" />
-      <Folder Include="Persistence\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="10.0.2" />
+      <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="10.0.2" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\FoodDelivery.BuildingBlocks.Application\FoodDelivery.BuildingBlocks.Application.csproj" />
+      <ProjectReference Include="..\FoodDelivery.BuildingBlocks.Domain\FoodDelivery.BuildingBlocks.Domain.csproj" />
+      <ProjectReference Include="..\FoodDelivery.BuildingBlocks.Integration\FoodDelivery.BuildingBlocks.Integration.csproj" />
     </ItemGroup>
 
 </Project>

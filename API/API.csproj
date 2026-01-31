@@ -17,4 +17,28 @@
       </Content>
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="Inbound Adapters\Catalog\Attributes\" />
+      <Folder Include="Inbound Adapters\Catalog\Contracts\Requests\" />
+      <Folder Include="Inbound Adapters\Catalog\Contracts\Responses\" />
+      <Folder Include="Inbound Adapters\Catalog\Controllers\" />
+      <Folder Include="Inbound Adapters\Catalog\Filters\" />
+      <Folder Include="Inbound Adapters\Catalog\Mappings\" />
+      <Folder Include="Inbound Adapters\Catalog\Middlewares\" />
+      <Folder Include="Inbound Adapters\Catalog\Model Binders\" />
+      <Folder Include="Inbound Adapters\Catalog\Profiles\" />
+      <Folder Include="Inbound Adapters\Delivery\" />
+      <Folder Include="Inbound Adapters\Identity\" />
+      <Folder Include="Inbound Adapters\Notification\" />
+      <Folder Include="Inbound Adapters\Ordering\" />
+      <Folder Include="Inbound Adapters\Payment\" />
+      <Folder Include="Inbound Adapters\Pricing\" />
+      <Folder Include="Inbound Adapters\Restaurants\" />
+      <Folder Include="Inbound Adapters\Reviews\" />
+      <Folder Include="Inbound Adapters\Search\" />
+      <Folder Include="Inbound Adapters\Tracking\" />
+      <Folder Include="Inbound Adapters\UserProfile\" />
+      <Folder Include="Requests\Tokens\" />
+    </ItemGroup>
+
 </Project>

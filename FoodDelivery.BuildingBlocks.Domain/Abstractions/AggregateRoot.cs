@@ -1,8 +1,8 @@
 namespace FoodDelivery.BuildingBlocks.Domain.Abstractions
 {
-    public abstract class AggregateRoot<TKey, TAggregate>
-        : Entity<TKey, TAggregate>
-        where TAggregate : AggregateRoot<TKey, TAggregate>
+    public abstract class AggregateRoot<TKey, TAggregateRoot>
+        : Entity<TKey, TAggregateRoot>
+        where TAggregateRoot : AggregateRoot<TKey, TAggregateRoot>
     {
         protected AggregateRoot()
         {

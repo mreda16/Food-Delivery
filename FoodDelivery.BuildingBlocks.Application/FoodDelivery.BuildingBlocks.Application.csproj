@@ -12,10 +12,15 @@
       <Folder Include="Abstractions\Caching\" />
       <Folder Include="Abstractions\Clock\" />
       <Folder Include="Abstractions\Email\" />
-      <Folder Include="Abstractions\EventBus\" />
-      <Folder Include="Abstractions\Messaging\" />
       <Folder Include="Abstractions\Persistence\SQLConnection\" />
-      <Folder Include="Abstractions\Persistence\UnitOfWork\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="MediatR" Version="14.0.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\FoodDelivery.BuildingBlocks.Domain\FoodDelivery.BuildingBlocks.Domain.csproj" />
     </ItemGroup>
 
 </Project>
