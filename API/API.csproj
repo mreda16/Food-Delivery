@@ -41,4 +41,19 @@
       <Folder Include="Requests\Tokens\" />
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\FoodDelivery.Modules.Catalog.Application\FoodDelivery.Modules.Catalog.Application.csproj" />
+      <ProjectReference Include="..\FoodDelivery.Modules.Delivery.Application\FoodDelivery.Modules.Delivery.Application.csproj" />
+      <ProjectReference Include="..\FoodDelivery.Modules.Identity.Application\FoodDelivery.Modules.Identity.Application.csproj" />
+      <ProjectReference Include="..\FoodDelivery.Modules.Notification.Application\FoodDelivery.Modules.Notification.Application.csproj" />
+      <ProjectReference Include="..\FoodDelivery.Modules.Ordering.Application\FoodDelivery.Modules.Ordering.Application.csproj" />
+      <ProjectReference Include="..\FoodDelivery.Modules.Payment.Application\FoodDelivery.Modules.Payment.Application.csproj" />
+      <ProjectReference Include="..\FoodDelivery.Modules.Pricing.Application\FoodDelivery.Modules.Pricing.Application.csproj" />
+      <ProjectReference Include="..\FoodDelivery.Modules.Restaurants.Application\FoodDelivery.Modules.Restaurants.Application.csproj" />
+      <ProjectReference Include="..\FoodDelivery.Modules.Reviews.Application\FoodDelivery.Modules.Reviews.Application.csproj" />
+      <ProjectReference Include="..\FoodDelivery.Modules.Search.Application\FoodDelivery.Modules.Search.Application.csproj" />
+      <ProjectReference Include="..\FoodDelivery.Modules.Tracking.Application\FoodDelivery.Modules.Tracking.Application.csproj" />
+      <ProjectReference Include="..\FoodDelivery.Modules.UserProfile.Application\FoodDelivery.Modules.UserProfile.Application.csproj" />
+    </ItemGroup>
+
 </Project>

@@ -18,4 +18,8 @@
       <Folder Include="Value Objects\" />
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\FoodDelivery.BuildingBlocks.Domain\FoodDelivery.BuildingBlocks.Domain.csproj" />
+    </ItemGroup>
+
 </Project>

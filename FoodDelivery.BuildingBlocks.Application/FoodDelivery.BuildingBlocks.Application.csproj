@@ -21,6 +21,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\FoodDelivery.BuildingBlocks.Domain\FoodDelivery.BuildingBlocks.Domain.csproj" />
+      <ProjectReference Include="..\FoodDelivery.BuildingBlocks.Integration\FoodDelivery.BuildingBlocks.Integration.csproj" />
     </ItemGroup>
 
 </Project>

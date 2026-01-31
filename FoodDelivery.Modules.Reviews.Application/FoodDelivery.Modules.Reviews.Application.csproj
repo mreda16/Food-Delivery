@@ -6,4 +6,9 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\FoodDelivery.BuildingBlocks.Application\FoodDelivery.BuildingBlocks.Application.csproj" />
+      <ProjectReference Include="..\FoodDelivery.Modules.Reviews.Domain\FoodDelivery.Modules.Reviews.Domain.csproj" />
+    </ItemGroup>
+
 </Project>

@@ -16,4 +16,9 @@
       <Folder Include="Queries\" />
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\FoodDelivery.BuildingBlocks.Application\FoodDelivery.BuildingBlocks.Application.csproj" />
+      <ProjectReference Include="..\FoodDelivery.Modules.Ordering.Domain\FoodDelivery.Modules.Ordering.Domain.csproj" />
+    </ItemGroup>
+
 </Project>
