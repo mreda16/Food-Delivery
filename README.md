@@ -262,4 +262,4 @@ I prioritizes correctness, clarity, and long-term sustainability over short-term
 
 
 
-Note: the project is not completed and still under development. i'll be back soon..
+Note: the project is not completed and still under development. i'll be back soon
